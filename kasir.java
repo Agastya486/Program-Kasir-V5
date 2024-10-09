@@ -6,7 +6,7 @@ public class kasir{
             int pilih1 = 0, pilih2 = 0, jumlah = 0, total = 0, grandtotal = 0;
 
             do { 
-                System.out.println("===Warung Oke===");
+                System.out.println("===Toko Oke===");
                 System.out.println("\n 1.Sandal \n 2.Sepatu \n 3.Exit");
 
                 System.out.print("Pilih : ");
@@ -26,7 +26,7 @@ public class kasir{
                                                         System.out.print("Jumlah : ");
                                                         jumlah = sc.nextInt();
                                                         total = 15000 * jumlah;
-                                                        System.out.println(total);
+                                                        System.out.println("Harga : " +total);
                                                         grandtotal = grandtotal + total;
                                                         break;
 
@@ -35,7 +35,7 @@ public class kasir{
                                                         System.out.print("Jumlah : ");
                                                         jumlah = sc.nextInt();
                                                         total = 50000 * jumlah;
-                                                        System.out.println(total);
+                                                        System.out.println("Harga : " +total);
                                                         grandtotal = grandtotal + total;
                                                         break;
                                                 
@@ -44,7 +44,7 @@ public class kasir{
                                                         System.out.print("Jumlah : ");
                                                         jumlah = sc.nextInt();
                                                         total = 100000 * jumlah;
-                                                        System.out.println(total);
+                                                        System.out.println("Harga : " +total);
                                                         grandtotal = grandtotal + total;
                                                         break;
 
@@ -70,7 +70,7 @@ public class kasir{
                                                         System.out.print("Jumlah : ");
                                                         jumlah = sc.nextInt();
                                                         total = 125000 * jumlah;
-                                                        System.out.println(total);
+                                                        System.out.println("Harga : " +total);
                                                         grandtotal = grandtotal + total;
                                                         break;
 
@@ -79,7 +79,7 @@ public class kasir{
                                                         System.out.print("Jumlah : ");
                                                         jumlah = sc.nextInt();
                                                         total = 200000 * jumlah;
-                                                        System.out.println(total);
+                                                        System.out.println("Harga : " +total);
                                                         grandtotal = grandtotal + total;
                                                         break;
                                                 
@@ -88,7 +88,7 @@ public class kasir{
                                                         System.out.print("Jumlah : ");
                                                         jumlah = sc.nextInt();
                                                         total = 400000 * jumlah;
-                                                        System.out.println(total);
+                                                        System.out.println("Harga : " +total);
                                                         grandtotal = grandtotal + total;
                                                         break;
 
